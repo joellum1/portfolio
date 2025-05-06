@@ -7,7 +7,7 @@ import ExtraSection from "@/components/ExtraSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col m-4">
+    <main className="flex flex-col m-4 gap-4">
       <Header />
       <TitleSection />
       <AboutSection />
