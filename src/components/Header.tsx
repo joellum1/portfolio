@@ -43,10 +43,10 @@ export default function Header() {
 
       <nav>
         <ul className="list-style-none flex flex-row gap-[1.5rem] text-gray-400">
-          <li><a href="/">About Me</a></li>
-          <li><a href="/">Projects</a></li>
-          <li><a href="/">Tech Stack</a></li>
-          <li><a href="/">Extracurriculars</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#tech">Tech Stack</a></li>
+          <li><a href="#extra">Extracurriculars</a></li>
         </ul>
       </nav>
     </header>
