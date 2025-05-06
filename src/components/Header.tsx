@@ -37,7 +37,7 @@ export default function Header() {
         paddingRight: padding,
       }}
     >
-      <a href="/" className="text-[1.5rem]">
+      <a href="#title" className="text-[1.5rem]">
         <span className="bold">JOEL LUM</span>
       </a>
 
