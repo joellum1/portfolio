@@ -7,9 +7,9 @@ export default function TitleSection() {
       className="flex flex-col items-center rounded-2xl"
     >
       <div className="flex flex-row items-baseline gap-x-4 text-[6rem] mt-48 mb-48 pl-24 pr-24">
-        <h1>Blending</h1>
+        <h1>Bringing</h1>
         <FlipWords
-          words={["innovation.", "impact.", "creativity."]}
+          words={["innovation.", "impact.", "inspiration."]}
           className="text-blue-700"
         />
       </div>
