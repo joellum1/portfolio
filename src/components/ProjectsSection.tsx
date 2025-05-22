@@ -4,11 +4,13 @@ export default function ProjectsSection() {
       title: "Portfolio Website",
       description: "My personal portfolio built with Next.js and Tailwind.",
       link: "https://yourportfolio.com",
+      image: "/images/portfolio.png", 
     },
     {
       title: "test",
       description: "description",
       link: "https://somelink.com",
+      image: "/images/portfolio.png", 
     },
   ];
 
