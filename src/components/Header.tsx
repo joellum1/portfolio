@@ -8,7 +8,7 @@ export default function Header() {
 
   const handleScroll = () => {
     const scrollY = window.scrollY;
-    const maxScroll = 50; // max scroll to fully apply shadow
+    const maxScroll = 250; // max scroll to fully apply shadow
     const intensity = Math.min(scrollY / maxScroll, 1);
 
     // Create a shadow with gradually increasing opacity and blur
