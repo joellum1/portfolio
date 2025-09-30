@@ -30,23 +30,41 @@ export default function Header() {
 
   return (
     <header 
-      className={`z-[999] fixed top-10 left-8 right-8 flex flex-row justify-between items-center pt-[0.75rem] pb-[0.75rem] rounded-2xl bg-white`}
+      className={`z-[999] fixed top-8 left-8 right-8 flex flex-row justify-between items-center pt-[0.75rem] pb-[0.75rem] rounded-2xl bg-white`}
       style={{ 
         boxShadow: shadowStyle,
         paddingLeft: padding,
         paddingRight: padding,
       }}
     >
-      <a href="#title" className="text-[1.5rem]">
-        <span className="bold">JOEL LUM</span>
-      </a>
+      <button className="hover:cursor-pointer">
+        <a href="#title" className="text-[1.5rem]">
+          <span className="bold">JOEL LUM</span>
+        </a>
+      </button>
 
       <nav>
         <ul className="list-style-none flex flex-row gap-[1.5rem] text-gray-400">
-          <li className='hover:text-blue-700'><a href="#about">About Me</a></li>
-          <li className='hover:text-blue-700'><a href="#projects">Projects</a></li>
-          <li className='hover:text-blue-700'><a href="#tech">Tech Stack</a></li>
-          <li className='hover:text-blue-700'><a href="#extra">Extracurriculars</a></li>
+          <li>
+            <button className="px-2 py-1 hover:text-blue-700 hover:cursor-pointer">
+              <a href="#about">About Me</a>
+            </button>
+          </li>
+          <li>
+            <button className="px-2 py-1 hover:text-blue-700 hover:cursor-pointer">
+              <a href="#projects">Projects</a>
+            </button>
+          </li>
+          <li>
+            <button className="px-2 py-1 hover:text-blue-700 hover:cursor-pointer">
+              <a href="#tech">Tech Stack</a>
+            </button>
+          </li>
+          <li>
+            <button className="px-2 py-1 hover:text-blue-700 hover:cursor-pointer">
+              <a href="#extra">Extracurriculars</a>
+            </button>
+          </li>
         </ul>
       </nav>
     </header>
