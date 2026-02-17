@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <header 
-      className={`z-[999] fixed top-8 left-8 right-8 flex flex-row justify-between items-center pt-[0.75rem] pb-[0.75rem] rounded-xl bg-white`}
+      className={`z-999 fixed top-8 left-8 right-8 flex flex-row justify-between items-center pt-[0.75rem] pb-[0.75rem] rounded-xl bg-white`}
       style={{ 
         boxShadow: shadowStyle,
         paddingLeft: padding,
