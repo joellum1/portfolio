@@ -21,7 +21,7 @@ export default function ProjectsSection() {
     {
       icon: <WaterDropOutlinedIcon className='text-[#fefefe]'/>,
       title: 'Drought Predictor',
-      description: 'Predicting presence of drought in Murray-Darling Basin',
+      description: 'Artificial neural network trained to predict presence of drought in the Murray-Darling Basin',
       techStack: ['Python', 'TensorFlow']
     },
   ];
