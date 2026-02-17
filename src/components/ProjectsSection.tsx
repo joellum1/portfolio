@@ -29,7 +29,7 @@ export default function ProjectsSection() {
   return (
     <section 
       id='projects'
-      className='flex flex-col items-center gap-32 bg-[#efefef] rounded-2xl pt-32 pb-32 pl-16 pr-16'
+      className='flex flex-col items-center gap-32 bg-[#efefef] rounded-2xl pt-32 pb-32 pl-16 pr-16 scroll-mt-4'
     >
       <h2 className='text-[4rem]'>Projects</h2>
 

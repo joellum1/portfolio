@@ -1,6 +1,6 @@
 import TechCard from '@/components/ui/TechCard';
 
-import { getTech, getTechs } from "@/lib/techConfig";
+import { getTech, getTechs } from '@/lib/techConfig';
 
 export default function TechSection() {
     const techStacks = {
@@ -17,7 +17,10 @@ export default function TechSection() {
   const librariesAndFrameworks = getTechs(techStacks.librariesAndFrameworks);
 
   return (
-    <section id='tech'>
+    <section 
+      id='tech'
+      className='scroll-mt-4'
+    >
       <div className='w-full bg-[#efefef] rounded-2xl p-24 text-[1.25rem]'>
         <h2 className='text-[4rem] text-blue-700'>Technologies</h2>
         

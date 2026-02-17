@@ -37,32 +37,32 @@ export default function Header() {
         paddingRight: padding,
       }}
     >
-      <button className="hover:cursor-pointer">
-        <a href="#title" className="text-[1.5rem]">
-          <span className="bold">Joel Lum</span>
+      <button className='hover:cursor-pointer'>
+        <a href='#' className='text-[1.5rem]'>
+          <span className='bold'>Joel Lum</span>
         </a>
       </button>
 
       <nav>
-        <ul className="list-style-none flex flex-row gap-[1.5rem] text-gray-400">
+        <ul className='list-style-none flex flex-row gap-[1.5rem] text-gray-400'>
           <li>
-            <button className="px-2 py-1 hover:text-blue-700 hover:cursor-pointer transition-colors duration-300">
-              <a href="#about">About Me</a>
+            <button className='px-2 py-1 hover:text-blue-700 hover:cursor-pointer transition-colors duration-300'>
+              <a href='#about'>About Me</a>
             </button>
           </li>
           <li>
-            <button className="px-2 py-1 hover:text-blue-700 hover:cursor-pointer transition-colors duration-300">
-              <a href="#projects">Projects</a>
+            <button className='px-2 py-1 hover:text-blue-700 hover:cursor-pointer transition-colors duration-300'>
+              <a href='#projects'>Projects</a>
             </button>
           </li>
           <li>
-            <button className="px-2 py-1 hover:text-blue-700 hover:cursor-pointer transition-colors duration-300">
-              <a href="#tech">Tech Stack</a>
+            <button className='px-2 py-1 hover:text-blue-700 hover:cursor-pointer transition-colors duration-300'>
+              <a href='#tech'>Tech Stack</a>
             </button>
           </li>
           <li>
-            <button className="px-2 py-1 hover:text-blue-700 hover:cursor-pointer transition-colors duration-300">
-              <a href="#extra">Extracurriculars</a>
+            <button className='px-2 py-1 hover:text-blue-700 hover:cursor-pointer transition-colors duration-300'>
+              <a href='#extra'>Extracurriculars</a>
             </button>
           </li>
         </ul>
