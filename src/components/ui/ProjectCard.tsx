@@ -12,10 +12,10 @@ export default function ProjectCard({
   icon,
   title,
   description,
-  techStack,
-  siteUrl,
-  liveUrl,
-  githubUrl,
+  // techStack,
+  // siteUrl,
+  // liveUrl,
+  // githubUrl,
 }: ProjectCardProps) {
   // Simple hash function to convert string to number
   const stringToNumber = (str: string) => {

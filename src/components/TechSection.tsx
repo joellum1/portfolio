@@ -1,6 +1,6 @@
 import TechCard from '@/components/ui/TechCard';
 
-import { getTech, getTechs } from '@/lib/techConfig';
+import { getTechs } from '@/lib/techConfig';
 
 export default function TechSection() {
     const techStacks = {
