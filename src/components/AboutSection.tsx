@@ -16,7 +16,7 @@ export default function AboutSection() {
           <li>
             <h1 className="text-[2rem] -ml-[0.15rem] flex items-center gap-4">
               Major
-              <span>📚</span>
+              <span>💻</span>
             </h1>
             <p className="text-[1rem] opacity-75">Software</p>
           </li>
@@ -30,16 +30,14 @@ export default function AboutSection() {
           <li>
             <h1 className="text-[2rem] -ml-[0.15rem] flex items-center gap-4">
               Current Year
-              <span>🗓️</span>
             </h1>
-            <p className="text-[1rem] opacity-75">3rd Year</p>
+            <p className="text-[1rem] opacity-75">4th Year</p>
           </li>
           <li>
             <h1 className="text-[2rem] -ml-[0.15rem] flex items-center gap-4">
-              Expected Graduation
-              <span>🎉</span>
+              Graduation Date
             </h1>
-            <p className="text-[1rem] opacity-75">December of 2026</p>
+            <p className="text-[1rem] opacity-75">December 2026</p>
           </li>
         </ul>
       </div>
