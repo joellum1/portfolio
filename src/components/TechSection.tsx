@@ -4,8 +4,8 @@ import { getTech, getTechs } from "@/lib/techConfig";
 
 export default function TechSection() {
     const techStacks = {
-    languages: ['C', 'HTML', 'CSS', 'Java', 'JavaScript', 'TypeScript', 'Python', 'Rust', 'Shell Scripting', 'SQL', 'LaTeX'],
-    developerTools: ['AWS', 'Docker', 'Figma', 'GitHub', 'Jupyter', 'PostgreSQL', 'Postman', 'Prisma', 'Supabase', 'Terraform', 'Vercel', 'VS Code'],
+    languages: ['C', 'HTML', 'CSS', 'Java', 'JavaScript', 'TypeScript', 'Markdown', 'Python', 'Rust', 'Shell Scripting', 'SQL'],
+    developerTools: ['AWS', 'Docker', 'Figma', 'GitHub', 'GitHub Actions', 'Jupyter', 'LaTeX', 'PostgreSQL', 'Postman', 'Prisma', 'Supabase', 'Swagger', 'Terraform', 'Vercel', 'ViteJS', 'VS Code'],
     collabTools: ['Confluence', 'Jira', 'Loom', 'Microsoft Suite', 'Slack'],
     librariesAndFrameworks: ['Matplotlib', 'Next.js', 'NumPy', 'OpenCV', 'Pandas', 'React', 'Scikit-learn', 'Tailwind CSS', 'TensorFlow'],
   };

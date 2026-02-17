@@ -36,6 +36,10 @@ export const techConfig: Record<string, Tech> = {
     name: 'TypeScript',
     icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />,
   },
+  'Markdown': {
+    name: 'Markdown',
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" />,
+  },
   'Python': {
     name: 'Python',
     icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />,
@@ -53,10 +57,6 @@ export const techConfig: Record<string, Tech> = {
     name: 'SQL',
     icon: 'devicon-azuresqldatabase-plain',
     colour: 'bg-blue-600'
-  },
-  'LaTeX': {
-    name: 'LaTeX',
-    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" />,
   },
   
   // Developer Tools
@@ -80,9 +80,17 @@ export const techConfig: Record<string, Tech> = {
     name: 'GitHub',
     icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />,
   },
+  'GitHub Actions': {
+    name: 'GitHub Actions',
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />,
+  },
   'Jupyter': {
     name: 'Jupyter',
     icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" />,
+  },
+  'LaTeX': {
+    name: 'LaTeX',
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" />,
   },
   'PostgreSQL': {
     name: 'PostgreSQL',
@@ -100,6 +108,10 @@ export const techConfig: Record<string, Tech> = {
     name: 'Supabase',
     icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" />,
   },
+  'Swagger': {
+    name: 'Swagger',
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" />,
+  },
   'Terraform': {
     name: 'Terraform',
     icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" />,
@@ -107,6 +119,10 @@ export const techConfig: Record<string, Tech> = {
   'Vercel': {
     name: 'Vercel',
     icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" />,
+  },
+  'ViteJS': {
+    name: 'ViteJS',
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />,
   },
   'VS Code': {
     name: 'VS Code',
