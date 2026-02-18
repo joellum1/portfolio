@@ -2,10 +2,10 @@ export default function AboutSection() {
   return (
     <section 
       id='about'
-      className='flex flex-col items-center rounded-2xl bg-blue-700 text-white scroll-mt-4'
+      className='flex flex-col items-center rounded-2xl bg-blue-700 text-[#fefefe] scroll-mt-4'
     >
       <div className='w-full p-24 flex flex-row'>
-        <ul className='list-style-none max-w-128 flex flex-col gap-8'>
+        <ul className='list-style-none max-w-lg flex flex-col gap-8'>
           <li>
             <h1 className='text-[2rem] -ml-[0.15rem] flex items-center gap-4'>
               Degree

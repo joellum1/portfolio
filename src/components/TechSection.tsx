@@ -3,7 +3,7 @@ import TechCard from '@/components/ui/TechCard';
 import { getTechs } from '@/lib/techConfig';
 
 export default function TechSection() {
-    const techStacks = {
+  const techStacks = {
     languages: ['C', 'HTML', 'CSS', 'Java', 'JavaScript', 'TypeScript', 'Markdown', 'Python', 'Rust', 'Shell Scripting', 'SQL'],
     developerTools: ['AWS', 'Docker', 'Figma', 'GitHub', 'GitHub Actions', 'Jupyter', 'LaTeX', 'PostgreSQL', 'Postman', 'Prisma', 'Supabase', 'Swagger', 'Terraform', 'Vercel', 'ViteJS', 'VS Code'],
     collabTools: ['Confluence', 'Jira', 'Loom', 'Microsoft Suite', 'Slack'],

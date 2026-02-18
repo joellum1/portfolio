@@ -1,3 +1,5 @@
+"use client";
+
 import ProjectCard from '@/components/ui/ProjectCard';
 
 import CottageOutlinedIcon from '@mui/icons-material/CottageOutlined';
